@@ -180,7 +180,7 @@ export default function Sidebar({ collapsed, isMobile, onToggle, onLogout }) {
                 fontFamily: 'var(--font-data)', fontSize: 9,
                 color: 'var(--text-faint)', letterSpacing: '0.1em', textTransform: 'uppercase',
               }}>
-                Corpacero S.A.S
+                Monitoreo IoT
               </div>
             </div>
           </div>

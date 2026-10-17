@@ -141,8 +141,8 @@ export default function LoginPage() {
             color: 'var(--text-primary)',
             letterSpacing: '-0.01em',
           }}>
-            Corpacero
-            <span style={{ fontWeight: 400, fontSize: 15, color: 'var(--text-muted)', marginLeft: 5 }}>S.A.S</span>
+            CorrIA
+            <span style={{ fontWeight: 400, fontSize: 15, color: 'var(--text-muted)', marginLeft: 5 }}>IoT</span>
           </div>
           <div style={{
             fontFamily: 'var(--font-ui)',
@@ -177,7 +177,7 @@ export default function LoginPage() {
                 type="email"
                 value={email}
                 onChange={e => setEmail(e.target.value)}
-                placeholder="usuario@corpacero.com"
+                placeholder="usuario@empresa.com"
                 required
                 disabled={submitting}
                 style={inputStyle}

@@ -196,7 +196,7 @@ export default function UploadPage() {
   const [busqueda, setBusqueda] = useState('');
 
   // Modo "planta nueva"
-  const [empresa, setEmpresa] = useState('Corpacero');
+  const [empresa, setEmpresa] = useState('Planta demo');
   const [sede, setSede] = useState('');
   const [ciudad, setCiudad] = useState('');
   const [departamento, setDepartamento] = useState('');
@@ -479,7 +479,7 @@ export default function UploadPage() {
                 <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 10 }}>
                   <div>
                     <label style={labelStyle}>Empresa</label>
-                    <input style={inputStyle} value={empresa} onChange={e => setEmpresa(e.target.value)} placeholder="Corpacero" />
+                    <input style={inputStyle} value={empresa} onChange={e => setEmpresa(e.target.value)} placeholder="Nombre de la planta" />
                   </div>
                   <div>
                     <label style={labelStyle}>Sede / Nombre</label>

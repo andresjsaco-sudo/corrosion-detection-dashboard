@@ -143,7 +143,7 @@ export default function DashboardPage() {
         justifyContent: 'space-between', flexWrap: 'wrap', gap: 8,
         fontSize: 11, color: 'var(--text-faint)', fontFamily: 'var(--font-data)',
       }}>
-        <span>Detección de Corrosión — Corpacero S.A.S © 2025</span>
+        <span>CorrIA, detección de corrosión con IA © 2026</span>
         <span>Uninorte · Ing. Mecánica &amp; Electrónica</span>
         <span>YOLOv8 Transfer Learning · ASTM B117</span>
       </div>
